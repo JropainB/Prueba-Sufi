@@ -1,0 +1,135 @@
+.conte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.roundedInput {
+    border-radius: 6px;
+}
+
+.roundedCard {
+    width: 400px;
+    height: 156px;
+    margin-bottom: 16px;
+    background: #ffffff;
+    box-shadow: 0px 0px 16px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    z-index: 1;
+    border: none;
+}
+
+
+.textColor {
+    height: 16px;
+    color: #413e4d;
+    margin-top: 24px;
+    font: normal normal normal 12px/17px 'Open Sans', sans-serif;
+    opacity: 1;
+    letter-spacing: 0px;
+    text-decoration: underline;
+}
+
+
+.input-container {
+    position: relative;
+    margin-bottom: 12px;
+    top: 0;
+}
+
+.img {
+    width: 264px;
+    height: 76px;
+    background: transparent url("/assets/img/Grupo 258.svg") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 12px;
+}
+
+h5 {
+    height: 48px;
+    font: normal 700 40px/55px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #413E4D;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+h2 {
+    height: 20px;
+    font: normal 400 16px/22px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #413E4D;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.img-bottom-left,
+.img-top-right {
+    position: fixed;
+    background: transparent url("/assets/img/Grupo 32967.svg") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: contain;
+    overflow: hidden;
+    width: 60%;
+    height: 100%;
+}
+
+.img-bottom-left {
+    bottom: -51.5%;
+    left: -14.8%;
+    background-position: bottom left;
+}
+
+.img-top-right {
+    top: -14.6%;
+    right: -26%;
+    background-position: top right;
+}
+
+.img-center-right,
+.img-center-left {
+    position: fixed;
+    background: transparent url("/assets/img/Grupo 36052.svg") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: contain;
+    overflow: hidden;
+    width: 5%;
+    height: 100%;
+}
+
+.img-center-right {
+    top: 85%;
+    right: 23%;
+}
+
+.img-center-left {
+    bottom: -30%;
+    left: 23%;
+}
+
+.img-circle-right,
+.img-circle-left {
+    position: fixed;
+    background: transparent url("/assets/img/Elipse 197.svg") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: contain;
+    overflow: hidden;
+    width: 0.5%;
+    height: 100%;
+}
+
+.img-circle-left {
+    bottom: -40%;
+    left: 20%;
+}
+
+.img-circle-right {
+    top: 79%;
+    right: 22.1%;
+}
